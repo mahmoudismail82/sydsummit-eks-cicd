@@ -1,6 +1,4 @@
-# EKS Deep Dive - Continuous Deployment sample API service
-
-A sample Kubernetes service used in the [EKS Deep Dive](https://linuxacademy.com/cp/modules/view/id/293) Continuous Deployment lesson.
+# EKS Workshop - Continuous Deployment sample API service
 
 The Dockerfile is a [multi-stage](https://docs.docker.com/develop/develop-images/multistage-build/) build that
 compiles the Go application and then packages it in a minimal image that pulls from [scratch](https://hub.docker.com/_/scratch/).
